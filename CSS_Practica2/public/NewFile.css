@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.CenterTitle {
+	text-align: center;
+}
+
+.header {
+	background-color: rgb(128, 128, 128, .7);
+}
+
+.shortHR {
+	width: 50%;
+}
+
+div.equalIMG img {
+	width: 12.25%;
+	height: 12.25%;
+}
+
+div.equalIMG img:hover {
+	opacity: 0.3;
+}
+
+.boldHR {
+	background-color: blue;
+	width: 75%;
+	height: 15px;
+}
+
+.LeftTitle {
+	text-align: center;
+	position: relative;
+	right: 10%;
+}
+
+.elementHOVER:hover {
+	background-color: blue;
+	font-weight: bold;
+}
+
+.bgimage {
+	background-image: url("./img/valencia_antigua.jpg");
+	width: 600px;
+	height: 400px;
+	left: 12.5%;
+	position: relative;
+	color: blue;
+	font-weight: bold;
+	/* He usado PX porque he modificado la resolución nativa de la imagen que era 600x400 a 400x400, por tanto para volver a su estado normal hay que aplicarle estos valores  */
+}
